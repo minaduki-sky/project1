@@ -1,0 +1,54 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>学内ボランティア募集</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#007bff">
+
+<body>
+
+<header>
+    <h1>学内ボランティア募集中！</h1>
+</header>
+
+<main>
+    <section>
+        <h2>学内ボランティア募集内容</h2>
+        <p>地域清掃・高齢者支援などの活動を一緒に行いませんか？</p>
+    </section>
+
+    <section>
+        <h2>活動内容</h2>
+        <ul>
+            <li>公園の清掃</li>
+            <li>高齢者宅の訪問支援</li>
+            <li>イベント運営サポート</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>参加方法</h2>
+        <p>以下のボタンから応募フォームにアクセスしてください。</p>
+      <a href="register.html" class="apply-button">応募フォームへ</a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 学内ボランティア募集団体</p>
+</footer>
+
+</body>
+</html>
+<script>
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('sw.js').then(() => {
+      console.log('Service Worker registered');
+    });
+  }
+</script>
+
+

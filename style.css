@@ -1,0 +1,118 @@
+style.css/* style.css */
+
+/* 全体の基本設定 */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0f03fa;
+    line-height: 1.6;
+}
+
+/* ヘッダー */
+header 
+{
+
+    
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #0f0101;
+    position: relative;
+    padding: 1em;
+    overflow: hidden;
+}
+
+/* ヘッダー文字をもっと印象的に */
+header h1 {
+    position: relative;
+    z-index: 1;
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* 立体感 */
+    margin: 0;
+}
+
+
+/* メインコンテンツ */
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    color: #2d89ef;
+    margin-top: 0;
+}
+
+/* セクションごとの余白 */
+section {
+    margin-bottom: 2em;
+}
+
+/* リストのスタイル */
+ul {
+    padding-left: 1.2em;
+}
+
+/* 応募ボタン */
+.apply-button {
+    display: inline-block;
+    padding: 0.8em 1.5em;
+    background-color: #28a745;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #218838;
+}
+
+/* フッター */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    font-size: 0.9rem;
+    margin-top: 3em;
+}
+
+
+/* メインコンテンツの背景を白で半透明に */
+main {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: rgba(255, 255, 255, 0.95);  /* 半透明白 */
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, textarea {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button.apply-button {
+    width: fit-content;
+    align-self: flex-start;
+    cursor: pointer;
+}
+
